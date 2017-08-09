@@ -1,7 +1,7 @@
 # PracticeCcodes
 Codes written in C#, console output only
 
-Find the stringcomparison folder and click stringcomparison > Program.cs to view the code
+To view the c# code, find the stringcomparison folder and click stringcomparison > Program.cs
 The console outputs are:
 
 1: 
