@@ -14,7 +14,7 @@ namespace stringcomparison
             /**Will use this code to store date/time into a List, then sort and 
              * identify which are the earliest and latest dates, without using ticks
             **/
-            var dateList = new List<string>() { "08/11/201703:00PM 08/11/201704:00PM", "08/11/201702:00PM 08/11/201703:00PM" };
+            var dateList = new List<string>() { "08/11/2017 08/12/2017", "08/08/20171:00PM 08/10/2017" };
             List<string> startDatesList = new List<string>();
             List<string> endDatesList = new List<string>();
             foreach (var dates in dateList)
@@ -26,17 +26,19 @@ namespace stringcomparison
                 endDatesList.Add(endDate);
             }
             startDatesList.Sort();
+            Console.WriteLine("The start dates are: \n");
             foreach (var dates in startDatesList)
             {
-                Console.WriteLine("The start dates are {0}", dates.ToString());
+                Console.WriteLine(dates.ToString());
             }
-            Console.WriteLine("The earliest start date is {0}", startDatesList[0].ToString());
+            Console.WriteLine("\nThe earliest start date is {0}", startDatesList[0].ToString());
             endDatesList.OrderByDescending(i => i);
+            Console.WriteLine("The end dates are: \n");
             foreach (var dates in endDatesList)
             {
-                Console.WriteLine("The end dates are {0}", dates.ToString());
+                Console.WriteLine(dates.ToString());
             }
-            Console.WriteLine("The latest end date is {0}", endDatesList[0].ToString());
+            Console.WriteLine("\nThe latest end date is {0}", endDatesList[0].ToString());
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
         }
