@@ -1,0 +1,6 @@
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\bin\Debug\stringcomparison.exe.config
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\bin\Debug\stringcomparison.exe
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\bin\Debug\stringcomparison.pdb
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\obj\Debug\stringcomparison.csprojResolveAssemblyReference.cache
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\obj\Debug\stringcomparison.exe
+c:\users\mivy\documents\visual studio 2015\Projects\stringcomparison\stringcomparison\obj\Debug\stringcomparison.pdb
